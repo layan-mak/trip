@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/black"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/blacklogo" />
+
+    <fragment
+        android:id="@+id/fragment"
+        android:name="com.example.user.layan.HelloGlobeFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="367dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+    <Button
+        android:id="@+id/goToSignInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In" />
+
+    <Button
+        android:id="@+id/goToSignUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up" />
+
+</LinearLayout>

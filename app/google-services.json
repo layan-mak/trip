@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1007325152563",
+    "firebase_url": "https://layan-30cb3.firebaseio.com",
+    "project_id": "layan-30cb3",
+    "storage_bucket": "layan-30cb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007325152563:android:11e64fc8144ab098",
+        "android_client_info": {
+          "package_name": "com.example.user.layan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007325152563-mornak5dsmi076t7ag0s1s4clj3nq484.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.layan",
+            "certificate_hash": "090b37ae54543232e42d4a8a51221c2a9a993f6a"
+          }
+        },
+        {
+          "client_id": "1007325152563-lc3nc2dl8bpu74htnkqcibn1iliplkus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6Z42Y6PUff7YmDo-xPnrDbhF9UBxN8fw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007325152563-lc3nc2dl8bpu74htnkqcibn1iliplkus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

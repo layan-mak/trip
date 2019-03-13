@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mapbckg"
+    tools:context=".PlanDayActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        app:srcCompat="@drawable/whitelogo" />
+
+    <Button
+        android:id="@+id/countryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Country" />
+
+    <TextView
+        android:id="@+id/countryTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/citiesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cities" />
+
+    <TextView
+        android:id="@+id/citiesTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/descriptionDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Day Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addPinButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Pin to Map" />
+
+</LinearLayout>
